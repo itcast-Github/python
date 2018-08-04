@@ -1,0 +1,437 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>__new__方法 | </title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../09day/section.13.html" />
+    
+    
+    <link rel="prev" href="../09day/section.14.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="1.3"
+        data-chapter-title="__new__方法"
+        data-filepath="11day/section.4.md"
+        data-basepath=".."
+        data-revision="Tue Jan 03 2017 18:32:19 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Python基础
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="11day/index.html">
+            
+                
+                    <a href="../11day/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        面向对象3、异常、模块
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="09day/section.15.html">
+            
+                
+                    <a href="../09day/section.15.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        练习：设计类
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="09day/section.14.html">
+            
+                
+                    <a href="../09day/section.14.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        工厂模式
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="11day/section.4.html">
+            
+                
+                    <a href="../11day/section.4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        __new__方法
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="09day/section.13.html">
+            
+                
+                    <a href="../09day/section.13.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        单例模式
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="10day/section.1.html">
+            
+                
+                    <a href="../10day/section.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        异常介绍
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="10day/section.2.html">
+            
+                
+                    <a href="../10day/section.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.</b>
+                        
+                        捕获异常
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="10day/section.2.2.html">
+            
+                
+                    <a href="../10day/section.2.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.7.</b>
+                        
+                        异常的传递
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="10day/section.3.html">
+            
+                
+                    <a href="../10day/section.3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.</b>
+                        
+                        抛出自定义的异常
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="10day/section.3.2.html">
+            
+                
+                    <a href="../10day/section.3.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.</b>
+                        
+                        异常处理中抛出异常
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="08day/section.7.html">
+            
+                
+                    <a href="../08day/section.7.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.10.</b>
+                        
+                        模块介绍
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="08day/section.8.html">
+            
+                
+                    <a href="../08day/section.8.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.11.</b>
+                        
+                        模块制作
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="08day/section.8.3.html">
+            
+                
+                    <a href="../08day/section.8.3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.12.</b>
+                        
+                        模块中的__all__
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="08day/section.7.1.html">
+            
+                
+                    <a href="../08day/section.7.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.13.</b>
+                        
+                        python中的包
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="08day/section.8.1.html">
+            
+                
+                    <a href="../08day/section.8.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.14.</b>
+                        
+                        模块发布
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="08day/section.8.2.html">
+            
+                
+                    <a href="../08day/section.8.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.15.</b>
+                        
+                        模块安装、使用
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" ></a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="new&#x65B9;&#x6CD5;"><code>__new__</code>&#x65B9;&#x6CD5;</h1>
+<pre><code class="lang-python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">A</span><span class="hljs-params">(object)</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
+        print(<span class="hljs-string">&quot;&#x8FD9;&#x662F; init &#x65B9;&#x6CD5;&quot;</span>)
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__new__</span><span class="hljs-params">(cls)</span>:</span>
+        print(<span class="hljs-string">&quot;&#x8FD9;&#x662F; new &#x65B9;&#x6CD5;&quot;</span>)
+        <span class="hljs-keyword">return</span> object.__new__(cls)
+
+A()
+</code></pre>
+<h4 id="&#x603B;&#x7ED3;">&#x603B;&#x7ED3;</h4>
+<ul>
+<li><p><code>__new__</code>&#x81F3;&#x5C11;&#x8981;&#x6709;&#x4E00;&#x4E2A;&#x53C2;&#x6570;cls&#xFF0C;&#x4EE3;&#x8868;&#x8981;&#x5B9E;&#x4F8B;&#x5316;&#x7684;&#x7C7B;&#xFF0C;&#x6B64;&#x53C2;&#x6570;&#x5728;&#x5B9E;&#x4F8B;&#x5316;&#x65F6;&#x7531;Python&#x89E3;&#x91CA;&#x5668;&#x81EA;&#x52A8;&#x63D0;&#x4F9B;</p>
+</li>
+<li><p><code>__new__</code>&#x5FC5;&#x987B;&#x8981;&#x6709;&#x8FD4;&#x56DE;&#x503C;&#xFF0C;&#x8FD4;&#x56DE;&#x5B9E;&#x4F8B;&#x5316;&#x51FA;&#x6765;&#x7684;&#x5B9E;&#x4F8B;&#xFF0C;&#x8FD9;&#x70B9;&#x5728;&#x81EA;&#x5DF1;&#x5B9E;&#x73B0;<code>__new__</code>&#x65F6;&#x8981;&#x7279;&#x522B;&#x6CE8;&#x610F;&#xFF0C;&#x53EF;&#x4EE5;return&#x7236;&#x7C7B;<code>__new__</code>&#x51FA;&#x6765;&#x7684;&#x5B9E;&#x4F8B;&#xFF0C;&#x6216;&#x8005;&#x76F4;&#x63A5;&#x662F;object&#x7684;<code>__new__</code>&#x51FA;&#x6765;&#x7684;&#x5B9E;&#x4F8B;</p>
+</li>
+<li><p><code>__init__</code>&#x6709;&#x4E00;&#x4E2A;&#x53C2;&#x6570;self&#xFF0C;&#x5C31;&#x662F;&#x8FD9;&#x4E2A;<code>__new__</code>&#x8FD4;&#x56DE;&#x7684;&#x5B9E;&#x4F8B;&#xFF0C;<code>__init__</code>&#x5728;<code>__new__</code>&#x7684;&#x57FA;&#x7840;&#x4E0A;&#x53EF;&#x4EE5;&#x5B8C;&#x6210;&#x4E00;&#x4E9B;&#x5176;&#x5B83;&#x521D;&#x59CB;&#x5316;&#x7684;&#x52A8;&#x4F5C;&#xFF0C;<code>__init__</code>&#x4E0D;&#x9700;&#x8981;&#x8FD4;&#x56DE;&#x503C;</p>
+</li>
+<li><p>&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5C06;&#x7C7B;&#x6BD4;&#x4F5C;&#x5236;&#x9020;&#x5546;&#xFF0C;<code>__new__</code>&#x65B9;&#x6CD5;&#x5C31;&#x662F;&#x524D;&#x671F;&#x7684;&#x539F;&#x6750;&#x6599;&#x8D2D;&#x4E70;&#x73AF;&#x8282;&#xFF0C;<code>__init__</code>&#x65B9;&#x6CD5;&#x5C31;&#x662F;&#x5728;&#x6709;&#x539F;&#x6750;&#x6599;&#x7684;&#x57FA;&#x7840;&#x4E0A;&#xFF0C;&#x52A0;&#x5DE5;&#xFF0C;&#x521D;&#x59CB;&#x5316;&#x5546;&#x54C1;&#x73AF;&#x8282;&#x3002;</p>
+</li>
+</ul>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../09day/section.14.html" class="navigation navigation-prev " aria-label="Previous page: 工厂模式"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../09day/section.13.html" class="navigation navigation-next " aria-label="Next page: 单例模式"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
