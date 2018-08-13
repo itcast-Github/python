@@ -20,7 +20,7 @@ who:查看当前登录的用户信息
 
 exit:退出登录
 
-
+[ctrl+a 光标移到开始  ctrl+e 光标移到末尾]
 useradd 新的用户名 -m -d /home/新用户名 -g 组名
 
 passwd 用户名
