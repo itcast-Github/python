@@ -1,0 +1,84 @@
+
+匿名函数:
+
+	in [1]: a = [12,343,1,2131,23,12,41,3,1,231,23,12,3,123]
+
+	In [2]: a.sort()
+
+	In [3]: a
+	Out[3]: [1, 1, 3, 3, 12, 12, 12, 23, 23, 41, 123, 231, 343, 2131]
+
+	In [4]: a.sort(reve)
+	reverse=  reversed  
+
+	In [4]: a.sort(reverse=True)
+
+	In [5]: a
+	Out[5]: [2131, 343, 231, 123, 41, 23, 23, 12, 12, 12, 3, 3, 1, 1]
+
+	In [6]: 
+
+	In [6]: 
+
+	In [6]: 
+
+	In [6]: 
+
+	In [6]: b = [{"xuhao":22,"age":18},{"xuhao":23,"age":80},{"xuhao":2,"age":30},{"xuhao":5,"age":40}]
+
+	In [7]: 
+
+	In [7]: 
+
+	In [7]: 
+
+	In [7]: b
+	Out[7]: 
+	[{'xuhao': 22, 'age': 18},
+	 {'xuhao': 23, 'age': 80},
+	 {'xuhao': 2, 'age': 30},
+	 {'xuhao': 5, 'age': 40}]
+
+	In [8]: a
+	Out[8]: [2131, 343, 231, 123, 41, 23, 23, 12, 12, 12, 3, 3, 1, 1]
+
+	In [9]: a.sort()
+
+	In [10]: 
+
+	In [10]: 
+
+	In [10]: 
+
+	In [10]: help(b.sort)
+
+
+	In [11]: b.sort(key=lambda x:x['xuhao'])
+
+	In [12]: b
+	Out[12]: 
+	[{'xuhao': 2, 'age': 30},
+	 {'xuhao': 5, 'age': 40},
+	 {'xuhao': 22, 'age': 18},
+	 {'xuhao': 23, 'age': 80}]
+
+	In [13]: b.sort(key=lambda x:x['age'])
+
+	In [14]: b
+	Out[14]: 
+	[{'xuhao': 22, 'age': 18},
+	 {'xuhao': 2, 'age': 30},
+	 {'xuhao': 5, 'age': 40},
+	 {'xuhao': 23, 'age': 80}]
+
+	In [15]: b.sort(key=lambda x:x['xuhao'],rev)
+	reverse=  reversed  
+
+	In [15]: b.sort(key=lambda x:x['xuhao'],reverse=True)
+
+	In [16]: b
+	Out[16]: 
+	[{'xuhao': 23, 'age': 80},
+	 {'xuhao': 22, 'age': 18},
+	 {'xuhao': 5, 'age': 40},
+	 {'xuhao': 2, 'age': 30}]

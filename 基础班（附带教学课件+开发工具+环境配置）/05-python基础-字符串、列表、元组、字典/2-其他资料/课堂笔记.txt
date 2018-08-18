@@ -1,0 +1,130 @@
+
+
+c语言中，
+
+	存储多个数据的方式
+	数组,,,int age[10]
+
+	while
+
+	do-while
+
+	for
+		
+		for(int i=0; i<5; i++){
+			循环条件满足的时候做的事情
+		}
+
+	const int ***p;
+
+
+python语言
+
+	while
+
+	for-in
+
+		for temp in 字符串等:
+			print(temp)
+
+
+	name[起始位置:结束位置:步长]
+
+
+
+
+字符串操作：
+
+	if xxxx:
+		yyyyy
+
+
+	True---->表示条件满足----->真------->非0
+	False--->表示条件不满足--->假-------->0
+
+	判断文件后缀 xxx.endswith("")
+
+	.jpg
+	.jepg
+	.gif
+	.png
+
+
+	“您确定要退出吗?(yes 退出，no不退出)”
+
+	yes
+
+	YES
+
+	Yes
+	yEs
+	yeS
+
+	Yes\nyEs\nyeS
+
+	op = input("")
+	op.lower()
+
+
+
+
+	前端：直接显示后端传送过来的数据
+
+	content = "hello world"
+	content.center(30)
+
+	print("%-2d")
+
+
+
+
+
+列表：
+
+	ages = []
+
+	python的列表，可以保存n个数据，并且每个数据的类型可以任意
+
+
+元组
+
+
+	(11,22,33,"dongGe",3.14)
+
+字典：
+
+	键值对
+
+	{key键:values值，key键:values值，key键:values值，key键:values值}
+
+[[],[],[]]
+[(),()]
+[{},{},{}]
+
+
+作业题1：
+
+	nums = [11,232,5,2341,123]
+
+	maxNum = 0
+
+	for num in nums:
+		xxxx什么情况下把值赋值为maxNum
+
+
+作业题2：
+"hello world"
+
+h:1 e:1 l:3 o:2 d:1 r:1 w:1
+
+
+选做题：（思考题）
+用类似于[{},{}....]的数据，完成保存一个班级的通讯录
+
+infos = [{"name":"dongge","age":"30","address":"山东临沂xxx"}]
+
+
+
+
+
+
