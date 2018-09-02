@@ -1,3 +1,4 @@
+#!/usr/bin/python
 #coding=utf-8
 
 #1. 提示并获取一个数字

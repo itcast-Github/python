@@ -1,3 +1,6 @@
+#!/usr/bin/python
+#coding=utf-8
+
 a = 19
 
 if a>10:

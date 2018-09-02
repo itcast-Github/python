@@ -1,3 +1,5 @@
+#!/usr/bin/python
+#coding=utf-8
 #怎样定义变量
 #名字 = 值
 

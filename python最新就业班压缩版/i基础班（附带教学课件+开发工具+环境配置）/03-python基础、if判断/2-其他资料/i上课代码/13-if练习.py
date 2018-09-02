@@ -1,3 +1,6 @@
+#!/usr/bin/python
+#coding=utf-8
+
 
 #1. 请输入你当前的分数
 #scoreInput = input("请输入当前驾驶证的分数:")
