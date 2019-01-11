@@ -4,8 +4,8 @@
 #输出
 
 print("============================")
-print("名字:dongGE")
-print("联系方式:131xxxxxxx")
+print("名字:dongGE\n")
+print("\t联系方式:131xxxxxxx")
 print("地址:山东xxxxxx")
 print("============================")
 

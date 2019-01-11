@@ -1,4 +1,7 @@
+
 #coding=utf-8
+
+
 print "                            _ooOoo_  "
 print "                           o8888888o  "
 print "                           88  .  88  "
