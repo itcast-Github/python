@@ -16,3 +16,23 @@ print(type(b))
 s = b.decode()
 print(s)
 print(s.encode())
+
+
+# 输出
+
+# b'\x04\x00'
+# b'\x00\x00\x01\x00\x00\x00\x00\x00'
+# b'\xff\xff\xfc\x00'
+# b'\x00\xfc\xff\xff'
+# b'\x01\xf4'
+# b'\r\x11'
+# b'\x0c4'
+# b'D\x0c'
+# d11
+# c34
+# 3345
+# 3124
+# <class 'bytes'>
+# china
+# us
+# b'china\r\nus'
