@@ -19,3 +19,6 @@ xiaoqiang = Dog("黑")
 #xiaoqiang.printColor()
 
 test(wangcai)
+
+# 打印
+# 颜色为：白

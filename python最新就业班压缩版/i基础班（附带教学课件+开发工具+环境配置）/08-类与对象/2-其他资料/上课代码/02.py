@@ -47,11 +47,7 @@ print(xiaohuamao.weiba)
 #注意：如果没有属性，那么还偏偏要访问这个属性，那么会产生一个异常
 #print(xiaohuamao.high)
 
-
-
-
-
-
-
-
 '''
+# 打印
+# hahahahahah
+# 有

@@ -28,3 +28,9 @@ print(wangcai)
 print(xiaoqiang)
 print(id(wangcai))
 print(id(xiaoqiang))
+
+# 打印
+# 当前对象的颜色为:白
+# 当前对象的颜色为:黑
+# 2534086476016
+# 2534086476072
