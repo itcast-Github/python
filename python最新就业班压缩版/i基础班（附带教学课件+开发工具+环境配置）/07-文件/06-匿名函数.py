@@ -21,3 +21,6 @@ def test(a,b,xxx):
 
 result = test(11,22,lambda x,y:x-y)
 print(result)
+
+# 打印
+# -11

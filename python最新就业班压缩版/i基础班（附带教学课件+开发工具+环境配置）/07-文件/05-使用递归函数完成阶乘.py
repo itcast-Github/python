@@ -21,3 +21,6 @@ def test(num):
 
 result = test(4)
 print(result)
+
+# 打印
+# 4 x 3 x 2 x 1 = 24
