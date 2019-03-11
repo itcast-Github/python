@@ -33,3 +33,7 @@ print(age)
 
 laowang.test2()
 
+# 打印
+# 31
+# ----test____
+# ------test2-----
