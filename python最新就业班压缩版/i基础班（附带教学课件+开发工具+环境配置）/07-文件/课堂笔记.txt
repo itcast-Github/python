@@ -16,21 +16,7 @@
 	In [5]: a
 	Out[5]: [2131, 343, 231, 123, 41, 23, 23, 12, 12, 12, 3, 3, 1, 1]
 
-	In [6]: 
-
-	In [6]: 
-
-	In [6]: 
-
-	In [6]: 
-
 	In [6]: b = [{"xuhao":22,"age":18},{"xuhao":23,"age":80},{"xuhao":2,"age":30},{"xuhao":5,"age":40}]
-
-	In [7]: 
-
-	In [7]: 
-
-	In [7]: 
 
 	In [7]: b
 	Out[7]: 
@@ -44,14 +30,7 @@
 
 	In [9]: a.sort()
 
-	In [10]: 
-
-	In [10]: 
-
-	In [10]: 
-
 	In [10]: help(b.sort)
-
 
 	In [11]: b.sort(key=lambda x:x['xuhao'])
 

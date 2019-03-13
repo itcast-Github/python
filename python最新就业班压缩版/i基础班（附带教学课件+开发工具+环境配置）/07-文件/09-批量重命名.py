@@ -18,4 +18,4 @@ print(allFileName)
 
 #2. 循环的方式 依次进行重命名
 for name in allFileName:
-    os.rename("./"+needRenameFile+"/"+name,"./"+needRenameFile+"/"+"[东京出品]-"+name)
+    os.rename("./"+needRenameFile+"/"+name,"./"+needRenameFile+"/"+"[东京出品 QILEI TEST]-"+name)
