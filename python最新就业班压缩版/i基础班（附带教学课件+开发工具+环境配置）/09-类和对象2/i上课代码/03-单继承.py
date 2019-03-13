@@ -23,3 +23,12 @@ bosi = Bosi()
 bosi.run()
 
 bosi.test()
+
+# 打印
+# -------跑-----
+# Traceback (most recent call last):
+#   File "03-单继承.py", line 25, in <module>
+#     bosi.test()
+#   File "03-单继承.py", line 14, in test
+#     self.__test()
+# AttributeError: 'Bosi' object has no attribute '_Bosi__test'

@@ -30,10 +30,11 @@ laowang.setNewAge(31)
 age = laowang.getAge()
 print(age)
 
+# 打印
+# 31
 
 laowang.test2()
 
 # 打印
-# 31
 # ----test____
 # ------test2-----
