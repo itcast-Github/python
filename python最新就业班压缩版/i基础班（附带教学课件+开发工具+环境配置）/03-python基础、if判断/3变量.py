@@ -12,7 +12,6 @@ print(type(name))
 print(type(age))
 #输出str int
 
-
 print("------------")
 
 print(age)
@@ -23,3 +22,10 @@ print(age)
 
 print(name)
 
+# 打印
+# <class 'str'>
+# <class 'int'>
+# ------------
+# 30
+# 31
+# dong

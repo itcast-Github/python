@@ -1,9 +1,6 @@
 #!/usr/bin/python
 #coding=utf-8
 #单行注释，#右边的部分不会被执行，只是用来说明
-#打印一句话skjfksjdlfjalksdjfl
-#ajsdflajlsdfjshdfjsjdfh
-
 
 
 '''
