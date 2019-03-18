@@ -31,3 +31,6 @@ class CakeStore(object):
 
 a = CakeStore()
 a.taste("橘子")
+
+# 打印
+# ------品尝味道:橘子味道----

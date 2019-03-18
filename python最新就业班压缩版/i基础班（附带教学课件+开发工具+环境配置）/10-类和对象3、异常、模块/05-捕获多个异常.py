@@ -6,3 +6,7 @@ try:
 
 except (NameError,FileNotFoundError):
     print("没有定义变量。。。。。")
+
+
+# 打印
+# 没有定义变量。。。。。

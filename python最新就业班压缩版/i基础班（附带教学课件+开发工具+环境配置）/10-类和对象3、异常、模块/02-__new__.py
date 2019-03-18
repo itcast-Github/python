@@ -22,3 +22,11 @@ class Test(object):
 a = Test()
 print(a.num)
 print(a)
+
+# 打印：  a 等价于 self
+# ----new-----
+# <class '__main__.Test'>
+# -----init----
+# <__main__.Test object at 0x000001EAB4250FD0>
+# 100
+# <__main__.Test object at 0x000001EAB4250FD0>

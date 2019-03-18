@@ -1,5 +1,3 @@
-
-
 class Singleton(object):
     
     __instance = None
@@ -8,10 +6,6 @@ class Singleton(object):
         if cls.__instance == None:
             cls.__instance = object.__new__(cls)
         return cls.__instance
-
-
-
-
 
 
 a = Singleton()
