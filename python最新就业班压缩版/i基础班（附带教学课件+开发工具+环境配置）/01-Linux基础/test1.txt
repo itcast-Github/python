@@ -1,0 +1,10 @@
+total 16K
+drwxr-xr-x 1 Administrator 197121    0 3月  18 13:39 ./
+drwxr-xr-x 1 Administrator 197121    0 1月  16 14:53 ../
+-rw-r--r-- 1 Administrator 197121    0 3月  18 13:40 test.txt
+-rw-r--r-- 1 Administrator 197121 3.6K 3月  18 13:40 课堂笔记.txt
+total 16K
+drwxr-xr-x 1 Administrator 197121    0 3月  18 13:39 ./
+drwxr-xr-x 1 Administrator 197121    0 1月  16 14:53 ../
+-rw-r--r-- 1 Administrator 197121  259 3月  18 13:40 test.txt
+-rw-r--r-- 1 Administrator 197121 3.6K 3月  18 13:40 课堂笔记.txt
