@@ -21,7 +21,7 @@ if findFlag == 1:
 else:
     print("没有找到")
 
-#第2中方法：
+#第2种方法：
 if insertName in names:
     print("找到了")
 else:
