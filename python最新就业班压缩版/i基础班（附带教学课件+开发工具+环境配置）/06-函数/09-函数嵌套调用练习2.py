@@ -14,12 +14,8 @@ def average3nums(A, B, C):
 
     return result
 
-
-
 averageResult = average3nums(11,22,33)
 print("====>%d<====="%averageResult)
 
-
-
-
-
+# 打印
+# ====>22<=====

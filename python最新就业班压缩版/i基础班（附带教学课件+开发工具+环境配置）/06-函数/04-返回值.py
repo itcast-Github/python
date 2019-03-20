@@ -14,5 +14,6 @@ def add2Num(a,b):
 result = add2Num(11,22)
 print(result)
 
+# 因为遇到return结束函数，所以打印
 #------1-----
 #33
