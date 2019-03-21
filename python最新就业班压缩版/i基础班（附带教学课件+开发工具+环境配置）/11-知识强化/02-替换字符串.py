@@ -17,3 +17,13 @@ def replaceStr2(temp, oldStr, newStr):
 result = replaceStr(aStr, "h", "H")
 print(result)
 
+# 打印
+# hello world ,hhhh world heihei
+# Hello world ,hhhh world heihei
+# Hello world ,Hhhh world heihei
+# Hello world ,HHhh world heihei
+# Hello world ,HHHh world heihei
+# Hello world ,HHHH world heihei
+# Hello world ,HHHH world Heihei
+# Hello world ,HHHH world HeiHei
+# Hello world ,HHHH world HeiHei
