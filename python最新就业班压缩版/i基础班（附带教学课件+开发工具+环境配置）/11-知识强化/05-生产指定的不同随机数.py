@@ -16,3 +16,6 @@ def createList(n):
 
 newList = createList(10)
 print(newList)
+
+# 打印类似列表
+# [8, 1, 10, 7, 9, 6, 5, 3, 2, 4]
