@@ -8,7 +8,7 @@ class Home:
         if len(self.containsItem)>0:
             msg += "\t"
             msg += "家里的物品有:"
-            
+
             #msg += ",".join(self.containsItem)
 
             for temp in self.containsItem:
@@ -57,3 +57,7 @@ home.addItem(bed2)
 
 
 print(home)
+
+
+
+# 知识点：else也可以放在for in 循环后面使用
