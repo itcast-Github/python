@@ -17,3 +17,10 @@ laozhao = Person("老赵", 18)
 Person.num = 100
 print(laowang.num)
 print(laozhao.num)
+
+# 打印
+# 老王
+# 10000
+# 北京....
+# 100
+# 100
