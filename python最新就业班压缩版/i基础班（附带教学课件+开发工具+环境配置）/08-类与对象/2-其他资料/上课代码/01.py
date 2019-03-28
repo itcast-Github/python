@@ -1,3 +1,5 @@
+'''
+
 #定义一个猫类
 class Cat:
     #属性
@@ -12,9 +14,10 @@ class Cat:
     def sleep(self):
         print("-----睡觉----")
 
+
     def printInfo(self):
         print(self.weiba)
-        #print(self.high)
+        print(self.high)
 
 
 #创建一个 猫 对象
@@ -41,13 +44,21 @@ print(xiaohuamao.weiba)
 
 xiaohuamao.printInfo()
 
+'''
 
 
-# 打印
-# ----吃-----
-# ----喝-----
-# -----睡觉----
-# 花色
-# 5
-# 有
-# 有
+# 1
+class Person:
+    def eat(self):
+        print('吃吃吃')
+
+# xiaobai = new Person() 创建对象错误
+xiaobai = Person()
+
+xiaobai.eat()
+
+xiaobai.color = '白色' # 引出02__init__的使用
+print(xiaobai.color)
+
+
+

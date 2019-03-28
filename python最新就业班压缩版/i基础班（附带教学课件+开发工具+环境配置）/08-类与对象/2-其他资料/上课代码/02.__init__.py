@@ -32,22 +32,12 @@ xiaohuamao = Cat("花色",5,"有")
 #xiaohuamao.sleep(11,22)
 
 xiaohuamao.printInfo()
-'''
-#给xiaohuamao对象添加属性
-xiaohuamao.color = "花色"
-xiaohuamao.weight = 5 #kg
-xiaohuamao.weiba = "有"
 
-#获取xiaohuamao对象的数据
-a = xiaohuamao.color
-print(a)
-print(xiaohuamao.weight)
-print(xiaohuamao.weiba)
 
-#注意：如果没有属性，那么还偏偏要访问这个属性，那么会产生一个异常
-#print(xiaohuamao.high)
-
-'''
-# 打印
-# hahahahahah
-# 有
+# 1
+class Tree:
+    def __init__(self, shuzhi, yezi):
+        self.shuzhi = shuzhi
+        self.yezi = yezi
+huyang = Tree('有树枝','有叶子 啊哈哈')
+print(huyang.shuzhi)
